@@ -1,0 +1,158 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+}
+
+.header {
+}
+
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+  gap: 16px;
+  align-items: center;
+  margin-right: 237px;
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+
+.nav-item-link {
+  padding: 26px 0;
+  display: block;
+  line-height: 1.75;
+  color: #22343d;
+}
+
+.active {
+  font-weight: 600;
+}
+
+.list-btn {
+  display: flex;
+  gap: 21px;
+  margin-left: auto;
+  align-items: center;
+}
+.list-btn-item {
+}
+.list-btn-sign {
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+}
+.list-btn-sign-second {
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  background-color: #02897a;
+  text-align: center;
+  color: #fff;
+}
+
+.work {
+}
+
+.work-work {
+  width: 465px;
+  height: 331px;
+}
+.hero-work {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #22343d;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #22343d;
+}
+.list-btn-w {
+}
+
+.list-btn-work {
+  border-radius: 4px;
+  width: 178px;
+  height: 53px;
+  background: #02897a;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.list-btn-work-two {
+  width: 164px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+}
