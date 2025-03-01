@@ -171,7 +171,6 @@ button {
 }
 
 .product {
-  display: flex;
   align-items: center;
 }
 
@@ -181,6 +180,9 @@ button {
   text-align: center;
   color: #22343d;
   text-align: center;
+  padding-bottom: 50px;
+  width: 539px;
+  height: 96px;
 }
 .product-list {
   display: flex;
@@ -190,6 +192,16 @@ button {
   margin: 0px auto;
 }
 .product-list-item {
+  width: calc((100% - 90px) / 4);
 }
 .product-button {
+  border-radius: 4px;
+  width: 178px;
+  height: 53px;
+  background: #02897a;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  display: block;
 }
