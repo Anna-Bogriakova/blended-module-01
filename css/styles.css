@@ -205,3 +205,67 @@ button {
   font-size: 16px;
   display: block;
 }
+
+.business {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.great-business {
+  width: 465px;
+  height: 331px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  gap: 35px;
+}
+
+.business-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #22343d;
+}
+
+.business-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #22343d;
+}
+
+.business-list {
+}
+.business-list-item {
+}
+.business-form {
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+  width: 469px;
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.business-label {
+}
+.business-input {
+  border: none;
+}
+
+.business-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #22343d;
+}
+
+.business-button {
+  gap: 10px;
+  border-radius: 100px;
+
+  width: 117px;
+  height: 50px;
+  background: #02897a;
+}
